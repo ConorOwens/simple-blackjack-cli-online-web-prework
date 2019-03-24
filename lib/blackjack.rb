@@ -31,11 +31,18 @@ end
 def hit?(total)
   prompt_user
   answer = get_user_input
+<<<<<<< HEAD
   if answer == "h"
     total += deal_card
     return total
   end
   if answer == "s"
+=======
+  if answer = "h"
+    total += deal_card
+  end
+  if answer = "s"
+>>>>>>> 19e869617f481bae93a75f6ab6af0ad7526597d8
     total
   end
 end
